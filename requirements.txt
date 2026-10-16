@@ -1,0 +1,11 @@
+# optastra is installed separately (see README.md): pip install -e /path/to/optastra
+torch>=2.1
+torchvision>=0.16
+numpy
+pandas
+pyarrow            # parquet files
+scikit-learn       # make_splits.py
+scipy              # statistics in augmentation_results.ipynb
+matplotlib
+jupyter
+pytest

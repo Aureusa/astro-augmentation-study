@@ -1,0 +1,33 @@
+# Training outputs, checkpoints, logs and derived results -- not versioned (yet)
+runs/
+results/
+slurm_output/*
+!slurm_output/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+
+# Data
+*.parquet
+*.zip
+*.csv
+
+# Old code and private notes
+junk/
+
+# Python / Jupyter / editors
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.vscode/
+.idea/
+.DS_Store
+
+# Slurm output and temporary files
+slurm_output/
+*.slurm
