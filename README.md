@@ -1,4 +1,4 @@
-# astro_augment
+# A Systematic Study of Data Augmentations for Astronomical Computer Vision
 
 Do natural-image augmentation policies help galaxy morphology classification?
 
